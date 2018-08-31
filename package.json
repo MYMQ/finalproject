@@ -1,0 +1,30 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "my final project",
+  "main": "server.js",
+  "scripts": {
+    "babel": "mkdir -p build && babel server.js -o build/main.bundle.js",
+    "lint": "eslint --fix *.js",
+    "start": "babel-node server.js"
+  },
+  "author": "Ye Ming Qiun",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dialogflow": "^0.6.0",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "express": "^4.16.3",
+    "googleapis": "^27.0.0",
+    "mongoose": "^5.2.10",
+    "twilio": "^3.19.2",
+    "winston": "^3.0.0"
+  }
+}
